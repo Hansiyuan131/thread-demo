@@ -1,2 +1,52 @@
 # thread-demo
-Java 多线程 练习Demo汇总  
+> Java 多线程 练习Demo汇总  
+
+## TodoList 
+- [ ] 并发容器类
+    - [ ] ConcurrentMap集合类使用与底层原理分析
+    - [ ] CopyOnWrite集合类使用与底层原理分析					
+    - [ ] 并发与阻塞队列Queue讲解							
+    - [ ] 模拟阻塞队列实战	
+    - [ ] ArrayBlockingQueue
+    - [ ] ConcurrentLinkedQueue
+    - [ ] SynchronousQueue
+    - [ ] PriorityBlockingQueue优先级队列
+    - [ ] DelayQueue延迟队列应用与实战
+- [ ] 线程安全、核心概念
+    - [ ] 线程安全、Synchronized核心概念					
+    - [ ] ThreadLocal线程局部变量使用与实战						
+    - [ ] 并发编程线程安全问题
+- [ ] Volatile&原子性-核心概念
+    - [ ] Volatile关键字核心概念与应用							
+    - [ ] Volatile关键字内存模型分析							
+    - [ ] Volatile关键字happens-before与内存屏障概念、重排序			
+    - [ ] Atomic类关键字									
+    - [ ] Atomic类实战应用爬坑手记	 		
+    - [ ] JDK Unsafe类使用与CAS原子特性
+- [ ] J.U.C工具类
+    - [ ] CountDownLatch							
+    - [ ] CountDownLatch实战场景应用					
+    - [ ] CyclicBarrier							
+    - [ ] CyclicBarrier实战场景应用	
+    - [ ] Future与Caller回调
+    - [ ] 利用设计模式模拟Future
+    - [ ] Exchanger多线程间数据交换
+    - [ ] ForkJoin并行
+    - [ ] Master-Worker并发组件模拟-生产消费者模式	
+    - [ ] Semaphore信号量与限流策略
+- [ ] 线程池核心
+    - [ ] Executors工厂类使用						
+    - [ ] Executors工厂类底层源码分析详解				
+    - [ ] ThreadPoolExecutor自定义线程池				
+    - [ ] ThreadPoolExecutor拒绝策略详解				
+    - [ ] 计算机密集型与IO密集型详解			
+    - [ ] 如何正确的使用线程池
+- [ ] AQS
+    - [ ] AQS核心
+    - [ ] ReentrantLock重入锁				
+    - [ ] Condition条件判断	
+    - [ ] ReadWriteLock读写锁								
+    - [ ] LockSupport
+    - [ ] 减少锁的竞争
+    - [ ] AQS源码解析
+ 
