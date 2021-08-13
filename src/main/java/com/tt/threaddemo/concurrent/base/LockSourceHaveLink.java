@@ -9,11 +9,24 @@ package com.tt.threaddemo.concurrent.base;
  */
 public class LockSourceHaveLink {
     private int balance;
+    private Object lock;
+
+    private LockSourceHaveLink() {
+
+    }
+
+    public LockSourceHaveLink(Object lock) {
+        this.lock = lock;
+    }
+
 
     void transfer(LockSourceHaveLink target, int amt) {
-        if (this.balance >= amt) {
-            this.balance -= amt;
-            target.balance += amt;
+        //synchronized (lock){
+        synchronized (LockSourceHaveLink.class) {
+            if (this.balance >= amt) {
+                this.balance -= amt;
+                target.balance += amt;
+            }
         }
     }
 }

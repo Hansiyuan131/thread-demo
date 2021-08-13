@@ -68,11 +68,11 @@ public class SyncQuestion {
         //Collection<String> ret1 = sq.loop01(vector);
         //System.err.println(ret1.toString());
 
-        //Collection<String> ret2 = sq.loop02(vector);
-        //System.err.println(ret2.toString());
+        Collection<String> ret2 = sq.loop02(vector);
+        System.err.println(ret2.toString());
 
-        Collection<String> ret3 = sq.loop03(vector);
-        System.err.println(ret3.toString());
+        //Collection<String> ret3 = sq.loop03(vector);
+        //System.err.println(ret3.toString());
 
     }
 }
