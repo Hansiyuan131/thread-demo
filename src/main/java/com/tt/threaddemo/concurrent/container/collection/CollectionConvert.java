@@ -1,4 +1,4 @@
-package com.tt.threaddemo.collection;
+package com.tt.threaddemo.concurrent.container.collection;
 
 import java.util.*;
 
